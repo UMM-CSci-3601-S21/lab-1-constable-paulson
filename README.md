@@ -67,12 +67,7 @@ this: <http://umm-csci-3601.github.io/3601-lab1_HTML-CSS/> but will not be ident
 
 ### Our Team's GitHub Pages URL
 
-> You should replace the link below with a link to *your* group's GitHub Pages
-> URL. Remember to also add that to your project description at the top of
-> your team's repo on GitHub. You can remove this note when you've done these
-> things.
-
-<http://umm-csci-3601.github.io/3601-lab1_HTML-CSS/>
+https://umm-csci-3601-s21.github.io/lab-1-constable-paulson/
 
 ### Version Control Reminder
 
