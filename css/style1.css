@@ -59,12 +59,18 @@ h2 {
   font-family: "Marcellus", serif;
   white-space: nowrap;
 }
+
 #courses {
   background-color: #ffde7a;
   font-family: "Marcellus", serif;
 }
 
 #pslo {
+  background-color: #d5d6d2;
+  font-family: "Marcellus", serif;
+}
+
+#tools {
   background-color: #d5d6d2;
   font-family: "Marcellus", serif;
 }
