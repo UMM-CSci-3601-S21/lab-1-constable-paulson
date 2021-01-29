@@ -1,18 +1,11 @@
-/*
-hint:
-use # in front of the name of an id from your html page
-use . in front of the name of a class of things from your html page
-use , to separate a list of things that have some shared css rule
-use float to make something locate itself on the right or left
-*/
 
 body {
   padding: 30px;
   background-color: #202020;
   color: rgb(255, 255, 255);
   display: flex;
-  flex-direction: column; /* this says how the flex items will align (e.g. 'row') */
-  align-items: center; /* These next two properties center the flex items */
+  flex-direction: column;
+  align-items: center;
 }
 
 .section{
@@ -22,6 +15,12 @@ body {
   margin: 10px;
   max-width: 48em;
   justify-content: center;
+  background-color:darkslategray;
+}
+
+#main-title {
+  padding: 10px;
+  margin: 10px;
 }
 
 #tools {
@@ -30,9 +29,14 @@ body {
 
 .version-control, .ide, .testing {
   display: inline-block;
+  vertical-align: text-top;
 }
 
-h2{
+.version-control ul, .ide ul, .testing ul {
+  list-style-type: none;
+}
+
+h2 {
   text-align: center;
 }
 
@@ -50,11 +54,48 @@ a {
   padding-left: 0;
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap; /* This tell's the flex items to wrap if there
-                      isn't enough space for all of the items. Without this the
-                      faculty images will be in a row and only resize well unitl around
-                      550px width of screen. */
+  flex-wrap: wrap;
   justify-content: center;
   align-content: center;
   text-align: center;
 }
+
+#style-selector {
+  position: fixed;
+  top: 0;
+  background-color:darkslategray;
+  width:100%;
+}
+
+#style-selector ul {
+    margin: 0;
+    padding: 0;
+  }
+
+  #style-selector li {
+    display:inline;
+    float:right;
+  }
+
+  #style-selector li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  #style-selector li a:hover:not(.active) {
+    background-color:black;
+  }
+
+  #validation {
+    padding: 25px;
+    text-align: center;
+    font-size:small;
+  }
+
+  #validation ul {
+    list-style-type: none;
+  }
+
