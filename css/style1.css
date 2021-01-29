@@ -27,6 +27,14 @@ body {
   }
 }
 
+a {
+  color: maroon;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
 #main-title {
   color: #ffde7a;
   font-family: "Patua One", monospace;
@@ -52,6 +60,18 @@ h2 {
 
 .cloud {
   font-size: large;
+}
+
+.version-control {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+}
+
+.ide {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.testing {
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 #tools {

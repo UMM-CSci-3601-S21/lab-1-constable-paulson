@@ -8,5 +8,10 @@ use float to make something locate itself on the right or left
 
 body {
   padding: 30px;
-  background-color: #ffffff;
+  background-color: #202020;
+  color: rgb(255, 255, 255);
+  display: flex;
+  flex-direction: column; /* this says how the flex items will align (e.g. 'row') */
+  align-items: center; /* These next two properties center the flex items */
+  justify-content: center;
 }
