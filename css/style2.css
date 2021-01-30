@@ -70,6 +70,10 @@ a {
   text-align: center;
 }
 
+.pic {
+  border: 5px solid;
+}
+
 #style-selector {
   position: fixed;
   top: 0;
