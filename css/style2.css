@@ -1,6 +1,9 @@
 
+/*
+Sets the background to grey-black, text color to white.
+*/
 body {
-  padding: 30px;
+  padding: 35px;
   background-color: #202020;
   color: rgb(255, 255, 255);
   display: flex;
@@ -8,36 +11,44 @@ body {
   align-items: center;
 }
 
+/*
+Sets section color to dark slate grey, changes max width to 70em and makes border 10px thick
+*/
 .section{
   border-radius: 25px;
   padding: 10px;
-  border: 5px solid;
+  border: 10px solid;
   margin: 10px;
-  max-width: 48em;
+  max-width: 70em;
   justify-content: center;
   background-color:darkslategray;
-}
-
-#main-title {
-  padding: 10px;
-  margin: 10px;
 }
 
 #tools {
   text-align: center;
 }
 
+/*
+Lines up unordered lists next to eachother instead of on top of eachother. Also aligns text to the top of section box for uniformity.
+*/
 .version-control, .ide, .testing {
   display: inline-block;
   vertical-align: text-top;
 }
 
+/*
+Example of Grouping and Class selection
+*/
 .version-control ul, .ide ul, .testing ul {
   list-style-type: none;
 }
 
+/*
+All headers centered with different font
+*/
 h2 {
   text-align: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 a {
@@ -51,7 +62,6 @@ a {
 }
 
 #faculty-list {
-  padding-left: 0;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -77,6 +87,9 @@ a {
     float:right;
   }
 
+  /*
+  Example of Nesting and ID selection
+  */
   #style-selector li a{
     display: block;
     color: white;
@@ -85,8 +98,11 @@ a {
     text-decoration: none;
   }
 
+  /*
+  Displays block with background color when hovering over selector.
+  */
   #style-selector li a:hover:not(.active) {
-    background-color:black;
+    background-color:#202020;
   }
 
   #validation {
